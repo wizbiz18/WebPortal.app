@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TURKCENTER_DBModelStoreContainer" CdmEntityContainer="TURKCENTER_DBEntities">
+    <EntitySetMapping Name="FloStoreReports">
+      <EntityTypeMapping TypeName="TURKCENTER_DBModel.FloStoreReport">
+        <MappingFragment StoreEntitySet="FloStoreReport">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="NetAmount" ColumnName="NetAmount" />
+          <ScalarProperty Name="QTY" ColumnName="QTY" />
+          <ScalarProperty Name="InvoiceCount" ColumnName="InvoiceCount" />
+          <ScalarProperty Name="VistorCount" ColumnName="VistorCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logins">
+      <EntityTypeMapping TypeName="TURKCENTER_DBModel.login">
+        <MappingFragment StoreEntitySet="login">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
